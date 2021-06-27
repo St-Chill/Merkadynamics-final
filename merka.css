@@ -48,3 +48,14 @@ body{
     background-color: #939494;
     color: white;
   }
+ .cog{ 
+    position:absolute; top: 460px; left: 900px;
+    animation: rotation 10s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
